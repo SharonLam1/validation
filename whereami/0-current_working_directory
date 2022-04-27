@@ -1,4 +1,4 @@
-cd /Users/devops/project/whereami
+#!/bin/bash
 
-pwd
+echo pwd
 
