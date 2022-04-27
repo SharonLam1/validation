@@ -1,3 +1,11 @@
 #!/bin/bash
-touch "\\*\\\\'\"DevOps\"\\'\\\\*\$\\?\\*\\*\\*\\*\\*:)"
-echo "Hello DevOps"
+ FILE="\\\*\\\\\'\"DevOps\"\\\'\\\\\*$\\\?\\\*\\\*\\\*\\\*\\\*:)" 
+touch $FILE
+echo "Hello DevOps" > $FILE
+ 
+ \*\\'"DevOps"\'\\*$\?\*\*\*\*\*:)
+"\\\*\\\\\'\"DevOps\"\\\'\\\\\*$\\\?\\\*\\\*\\\*\\\*\\\*:)" 
+ 
+ holberton-system_engineering-devops/0x02-shell_redirections/7-file
+ *\'"Holberton School"'\*$?*****:
+"\*\\\'\"Holberton School\"\'\\\*$\?\*\*\*\*\*:)"
