@@ -1,9 +1,0 @@
-#!/bin/bash
-hugo new site dist
-cd dist
-git init
-git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
-echo theme = \"ananke\" >> config.toml
-echo title = \"Awesome Inc.\" >> config.toml
-
-hugo new dist/posts/welcome.md
